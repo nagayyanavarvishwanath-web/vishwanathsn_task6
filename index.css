@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left{
+    align-items: center;
+    background-color: rgb(187, 239, 177);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right{
+    background-color: rgb(114, 192, 99);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+    color: rgb(208, 242, 15);
+    padding: 1em 1em 0em 1em;
+}
+
+.welcome{
+    padding: 1em 1em 0em 1em;
+    color: rgb(10, 86, 62);
+}
+
+.username{
+    padding: 1em;
+}
+
+#user input{
+    padding: 1em;
+    background-color: rgb(56, 159, 35);
+}
+
+.password{
+    padding: 1em;
+}
+
+#pass input{
+    color: rgb(7, 66, 47);
+    background-color: rgb(187, 239, 177);
+}
+
+#forget{
+    font-size: 14px;
+    text-align: right;
+    color: rgb(18, 53, 194);
+    cursor: pointer;
+}
+
+.login{
+    padding: 1em;
+}
+
+.login button{
+    padding: 1em 2em;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(160, 155, 11);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 1em 1em 1em 1em;
+
+}
+
+.login button:hover {
+    background-color: rgb(120, 5, 5);
+    font-size: 15px;
+}
+
+.username input,
+.password input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    background-color: rgb(220, 245, 215);
+    color: rgb(4, 41, 29);
+    border: 2px solid rgb(114, 192, 99);
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+}
+
+.username input:focus,
+.password input:focus {
+    background-color: rgb(220, 245, 215);
+    color: rgb(4, 41, 29);
+    border-color: rgb(160, 11, 11);
+}
